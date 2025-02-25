@@ -8,7 +8,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Middleware
-app.use(cors({ origin: ['http://localhost:5173','*']}));
+app.use(cors({ origin: ['http://localhost:5173','https://dazzling-starburst-ba5045.netlify.app','*']}));
 app.use(express.json());
 
 // Configure multer for memory storage
